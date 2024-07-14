@@ -1,5 +1,4 @@
-Simple Program to show how to configure spring beans using XML file 
-and constructor dependency injection:
+Simple Program to show how to configure spring beans using XML file and constructor dependency injection:
 Programs:
 * Employee.java
 * Student.java
@@ -9,8 +8,7 @@ Note:
 * ClassPathXmlApplicationContext container is used to XML bean configuration.
 * The getBeanDefinitionCount method is used to get number of beans defined in the factory.
 * The getBeanDefinitionNames method is used to get names of all beans defined in this factory.
-* If no beans are configured but we try to get beans from the context it given Exception that is 
-org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'xxxx' available.
+* If no beans are configured but we try to get beans from the context it given Exception that is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'xxxx' available.
 Output:
 Number of Beans: 2
 Beans Names:
