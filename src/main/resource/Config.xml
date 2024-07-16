@@ -11,8 +11,7 @@
 		<constructor-arg name="empId" value="101" />
 		<constructor-arg name="empName" value="Smith" />
 		<constructor-arg name="age" value="28" />
-		<constructor-arg name="designation"
-			value="Software Developer" />
+		<constructor-arg name="designation" value="Software Developer" />
 	</bean>
 	
 	<bean id="student" class="com.app.Student">

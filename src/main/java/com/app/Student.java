@@ -1,7 +1,7 @@
 package com.app;
 
 public class Student {
-	private Integer sId;
+	private String sId;
 	private String sName;
 	private Integer age;
 	private String course;
@@ -10,7 +10,7 @@ public class Student {
 		super();
 	}
 
-	public Student(Integer sId, String sName, Integer age, String course) {
+	public Student(String sId, String sName, Integer age, String course) {
 		super();
 		this.sId = sId;
 		this.sName = sName;
